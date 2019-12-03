@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [03/Dec/2019:20:27:02 +0800] "GET /usr/showName.do HTTP/1.1" 404 949 http-bio-8082-exec-1 388
+0:0:0:0:0:0:0:1 - - [03/Dec/2019:20:27:02 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8082-exec-3 1
+0:0:0:0:0:0:0:1 - - [03/Dec/2019:20:27:15 +0800] "GET /user/showName.do HTTP/1.1" 500 3692 http-bio-8082-exec-5 29
+0:0:0:0:0:0:0:1 - - [03/Dec/2019:20:27:26 +0800] "GET /user/showName.do HTTP/1.1" 500 3692 http-bio-8082-exec-7 17
+0:0:0:0:0:0:0:1 - - [03/Dec/2019:20:30:21 +0800] "GET /user/showName.do HTTP/1.1" 500 3692 http-bio-8082-exec-9 6
+0:0:0:0:0:0:0:1 - - [03/Dec/2019:20:31:26 +0800] "GET /user/showName.do HTTP/1.1" 500 3692 http-bio-8082-exec-1 458
+0:0:0:0:0:0:0:1 - - [03/Dec/2019:20:32:45 +0800] "GET /user/showName.do HTTP/1.1" 200 11 http-bio-8082-exec-1 1179

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--声明应用名称-->
+    <dubbo:application name="dubboprovider"/>
+    <!-- 配置注册中心-->
+    <dubbo:registry address="zookeeper://192.168.182.135:2181"/>
+    <!-- 声明发布到dubbo内容-->
+    <!--实际上发布的是该包下的带有@Service注解的实现类,框架自动扫描该包下所有子包-->
+    <dubbo:annotation package="com.test.service"/>
+
+</beans>

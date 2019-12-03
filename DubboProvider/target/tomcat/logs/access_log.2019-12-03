@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [03/Dec/2019:20:30:15 +0800] "GET /user/showName.do HTTP/1.1" 404 983 http-bio-8083-exec-1 46
+0:0:0:0:0:0:0:1 - - [03/Dec/2019:20:30:15 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8083-exec-3 2
